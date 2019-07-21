@@ -16,6 +16,8 @@ module.exports = (s) => {
       if (typeof sentence === 'string') return sentence;
       throwMustBeString();
     });
+  } else {
+    throwMustBeString();
   }
 
   return sentences.map(sentence => {
