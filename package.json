@@ -1,5 +1,5 @@
 {
-  "name": "dictionary",
+  "name": "big-ol-dictionary",
   "version": "1.0.0",
   "description": "In order to use the software you'll need https://www.tcl.tk/software/tcltk/download.html",
   "main": "index.js",
@@ -19,5 +19,6 @@
   "dependencies": {
     "jsonfile": "^5.0.0",
     "line-by-line": "^0.1.6"
-  }
+  },
+  "devDependencies": {}
 }
