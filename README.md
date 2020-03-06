@@ -6,10 +6,10 @@ Import dictionary and you will get
 
 ```
 {
-  adjectives,
-  adverbs,
-  nouns,
-  verbs
+  adjectives: {[key: string]: string},
+  adverbs: {[key: string]: string},
+  nouns: {[key: string]: string},
+  verbs: {[key: string]: string},
 }
 ```
 
